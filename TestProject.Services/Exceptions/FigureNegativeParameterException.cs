@@ -8,6 +8,14 @@ namespace TestProject.Services.Execptions
 {
     public partial class FigureNegativeParameterException : ApplicationException
     {
+        public FigureNegativeParameterException(string message) : base(message)
+        {
 
+        }
+
+        public FigureNegativeParameterException() : base()
+        {
+
+        }
     }
 }
