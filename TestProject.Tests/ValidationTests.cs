@@ -28,26 +28,34 @@ namespace TestProject.Tests
             _validator.Validate(triangle);
         }
 
+
         [TestMethod]
-        public void Triangle_Zero_All_Parameter_Valid()
+        [ExpectedException(typeof(TRiangleDoesNotExistException))]
+        public void Triangle_NotExist_Zero_All_Parameters()
         {
             Triangle triangle = new Triangle(0, 0, 0);
 
            var result=  _validator.Validate(triangle);
-
-            Assert.IsTrue(result);
         }
 
         [TestMethod]
-        public void Triangle_Positive_Parameters_Valid()
+        [ExpectedException(typeof(TRiangleDoesNotExistException))]
+        public void Triangle_NotExists_Negative()
         {
             Triangle triangle = new Triangle(10, 10, 0);
+
+            var result = _validator.Validate(triangle);
+        }
+
+        [TestMethod]
+        public void Triangle_Valid()
+        {
+            Triangle triangle = new Triangle(10, 10, 10);
 
             var result = _validator.Validate(triangle);
 
             Assert.IsTrue(result);
         }
-
 
         [TestMethod]
         [ExpectedException(typeof(FigureNegativeParameterException))]

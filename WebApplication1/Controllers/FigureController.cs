@@ -44,12 +44,21 @@ namespace TestProject.API.Controllers
             {
                 var result = _figreService.CalculateTriangleSquare(aLenght, bLength, cLength);
 
+                if(result < 0)
+                {
+                    return NotFound("Невозможно ввычеслить площадь по данным параметрам.");
+                }
+
                 return result;
             }
             catch (FigureNegativeParameterException)
             {
                 //logging here
                 return NotFound("Длины всех сторон должны быть положительными.");
+            }
+            catch (TRiangleDoesNotExistException)
+            {
+                return NotFound("Треугольник не существует.");
             }
             catch (Exception)
             {
@@ -74,12 +83,17 @@ namespace TestProject.API.Controllers
             {
                 var result = _figreService.CheckifTiangleIsRight(aLenght, bLength, cLength);
 
+
                 return result;
             }
             catch (FigureNegativeParameterException)
             {
                 //logging here
                 return NotFound("Длины всех сторон должны быть положительными.");
+            }
+            catch (TRiangleDoesNotExistException)
+            {
+                return NotFound("Треугольник не существует.");
             }
             catch (Exception)
             {
@@ -101,6 +115,11 @@ namespace TestProject.API.Controllers
             try
             {
                 var result = _figreService.CalculateCircleSquare(radius);
+
+                if (result < 0)
+                {
+                    return NotFound("Невозможно ввычеслить площадь по данным параметрам.");
+                }
 
                 return result;
             }

@@ -185,11 +185,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "J:\\projects\\TestProject\\TestProject.Models\\TestProject.Models.csproj",
+      "projectUniqueName": "J:\\temp\\TestExample\\TestProject.Models\\TestProject.Models.csproj",
       "projectName": "TestProject.Models",
-      "projectPath": "J:\\projects\\TestProject\\TestProject.Models\\TestProject.Models.csproj",
+      "projectPath": "J:\\temp\\TestExample\\TestProject.Models\\TestProject.Models.csproj",
       "packagesPath": "C:\\Users\\alexe\\.nuget\\packages\\",
-      "outputPath": "J:\\projects\\TestProject\\TestProject.Models\\obj\\",
+      "outputPath": "J:\\temp\\TestExample\\TestProject.Models\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

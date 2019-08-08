@@ -12684,11 +12684,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "J:\\projects\\TestProject\\WebApplication1\\TestProject.API.csproj",
+      "projectUniqueName": "J:\\temp\\TestExample\\WebApplication1\\TestProject.API.csproj",
       "projectName": "TestProject.API",
-      "projectPath": "J:\\projects\\TestProject\\WebApplication1\\TestProject.API.csproj",
+      "projectPath": "J:\\temp\\TestExample\\WebApplication1\\TestProject.API.csproj",
       "packagesPath": "C:\\Users\\alexe\\.nuget\\packages\\",
-      "outputPath": "J:\\projects\\TestProject\\WebApplication1\\obj\\",
+      "outputPath": "J:\\temp\\TestExample\\WebApplication1\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -12707,8 +12707,8 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "J:\\projects\\TestProject\\TestProject.Services\\TestProject.Services.csproj": {
-              "projectPath": "J:\\projects\\TestProject\\TestProject.Services\\TestProject.Services.csproj"
+            "J:\\temp\\TestExample\\TestProject.Services\\TestProject.Services.csproj": {
+              "projectPath": "J:\\temp\\TestExample\\TestProject.Services\\TestProject.Services.csproj"
             }
           }
         }

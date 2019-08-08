@@ -34,12 +34,22 @@ namespace TestProject.Services
         private bool ValidateTriangleParameters(Triangle triangle) {
             if (triangle.ALength < 0 || triangle.BLength < 0 || triangle.CLength < 0) throw new FigureNegativeParameterException();
 
-            return true;
+            //проверяем что треугольник существует
+            var triangleExist= triangle.ALength + triangle.BLength > triangle.CLength && triangle.ALength + triangle.CLength > triangle.BLength && triangle.BLength + triangle.CLength > triangle.ALength;
+
+            if (!triangleExist)
+            {
+                throw new TRiangleDoesNotExistException();
+            }
+
+            return triangleExist;
+
         }
 
         private bool ValidateCicleParameters(Circle circle) {
 
             if(circle.Radius < 0)  throw new FigureNegativeParameterException();
+
 
             return true;
         }

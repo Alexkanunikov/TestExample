@@ -201,11 +201,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "J:\\projects\\TestProject\\TestProject.Services\\TestProject.Services.csproj",
+      "projectUniqueName": "J:\\temp\\TestExample\\TestProject.Services\\TestProject.Services.csproj",
       "projectName": "TestProject.Services",
-      "projectPath": "J:\\projects\\TestProject\\TestProject.Services\\TestProject.Services.csproj",
+      "projectPath": "J:\\temp\\TestExample\\TestProject.Services\\TestProject.Services.csproj",
       "packagesPath": "C:\\Users\\alexe\\.nuget\\packages\\",
-      "outputPath": "J:\\projects\\TestProject\\TestProject.Services\\obj\\",
+      "outputPath": "J:\\temp\\TestExample\\TestProject.Services\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -224,8 +224,8 @@
       "frameworks": {
         "netstandard2.0": {
           "projectReferences": {
-            "J:\\projects\\TestProject\\TestProject.Models\\TestProject.Models.csproj": {
-              "projectPath": "J:\\projects\\TestProject\\TestProject.Models\\TestProject.Models.csproj"
+            "J:\\temp\\TestExample\\TestProject.Models\\TestProject.Models.csproj": {
+              "projectPath": "J:\\temp\\TestExample\\TestProject.Models\\TestProject.Models.csproj"
             }
           }
         }

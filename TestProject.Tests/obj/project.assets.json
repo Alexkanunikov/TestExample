@@ -5861,11 +5861,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "J:\\projects\\TestProject\\TestProject.Tests\\TestProject.Tests.csproj",
+      "projectUniqueName": "J:\\temp\\TestExample\\TestProject.Tests\\TestProject.Tests.csproj",
       "projectName": "TestProject.Tests",
-      "projectPath": "J:\\projects\\TestProject\\TestProject.Tests\\TestProject.Tests.csproj",
+      "projectPath": "J:\\temp\\TestExample\\TestProject.Tests\\TestProject.Tests.csproj",
       "packagesPath": "C:\\Users\\alexe\\.nuget\\packages\\",
-      "outputPath": "J:\\projects\\TestProject\\TestProject.Tests\\obj\\",
+      "outputPath": "J:\\temp\\TestExample\\TestProject.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -5884,11 +5884,11 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "J:\\projects\\TestProject\\TestProject.Models\\TestProject.Models.csproj": {
-              "projectPath": "J:\\projects\\TestProject\\TestProject.Models\\TestProject.Models.csproj"
+            "J:\\temp\\TestExample\\TestProject.Models\\TestProject.Models.csproj": {
+              "projectPath": "J:\\temp\\TestExample\\TestProject.Models\\TestProject.Models.csproj"
             },
-            "J:\\projects\\TestProject\\TestProject.Services\\TestProject.Services.csproj": {
-              "projectPath": "J:\\projects\\TestProject\\TestProject.Services\\TestProject.Services.csproj"
+            "J:\\temp\\TestExample\\TestProject.Services\\TestProject.Services.csproj": {
+              "projectPath": "J:\\temp\\TestExample\\TestProject.Services\\TestProject.Services.csproj"
             }
           }
         }
