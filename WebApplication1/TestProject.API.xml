@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>TestProject.API</name>
+    </assembly>
+    <members>
+        <member name="M:TestProject.API.Controllers.FigureController.CalculateTriangleSquare(System.Int32,System.Int32,System.Int32)">
+            <summary>
+            вычислениие площади треугольника
+            </summary>
+            <param name="aLenght">Длина стороны a(мм)</param>
+            <param name="bLength">Длина стороны b(мм)</param>
+            <param name="cLength">Длина стороны c(мм)</param>
+            <returns>площадь мм:2</returns>
+        </member>
+        <member name="M:TestProject.API.Controllers.FigureController.CheckTriangleIsRight(System.Int32,System.Int32,System.Int32)">
+            <summary>
+            проверяет является ли треугольник прямоугольным
+            </summary>
+            <param name="aLenght">Длина стороны a(мм)</param>
+            <param name="bLength">Длина стороны b(мм)</param>
+            <param name="cLength">Длина стороны c(мм)</param>
+            <returns>true - треугольник являетсяпрямоугольным</returns>
+        </member>
+        <member name="M:TestProject.API.Controllers.FigureController.CalculateCircleSquare(System.Int32)">
+            <summary>
+            вычислениие площади круга
+            </summary>
+            <param name="radius"> радиус мм</param>
+            <returns>площадь мм:2</returns>
+        </member>
+    </members>
+</doc>

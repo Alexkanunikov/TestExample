@@ -1,0 +1,12 @@
+J:\projects\TestProject\TestProject.Services\bin\Release\netstandard2.0\TestProject.Services.deps.json
+J:\projects\TestProject\TestProject.Services\bin\Release\netstandard2.0\TestProject.Services.dll
+J:\projects\TestProject\TestProject.Services\bin\Release\netstandard2.0\TestProject.Services.pdb
+J:\projects\TestProject\TestProject.Services\bin\Release\netstandard2.0\TestProject.Models.dll
+J:\projects\TestProject\TestProject.Services\bin\Release\netstandard2.0\TestProject.Models.pdb
+J:\projects\TestProject\TestProject.Services\obj\Release\netstandard2.0\TestProject.Services.csprojAssemblyReference.cache
+J:\projects\TestProject\TestProject.Services\obj\Release\netstandard2.0\TestProject.Services.csproj.CoreCompileInputs.cache
+J:\projects\TestProject\TestProject.Services\obj\Release\netstandard2.0\TestProject.Services.AssemblyInfoInputs.cache
+J:\projects\TestProject\TestProject.Services\obj\Release\netstandard2.0\TestProject.Services.AssemblyInfo.cs
+J:\projects\TestProject\TestProject.Services\obj\Release\netstandard2.0\TestProject.Services.csproj.CopyComplete
+J:\projects\TestProject\TestProject.Services\obj\Release\netstandard2.0\TestProject.Services.dll
+J:\projects\TestProject\TestProject.Services\obj\Release\netstandard2.0\TestProject.Services.pdb

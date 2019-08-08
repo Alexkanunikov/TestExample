@@ -1,0 +1,26 @@
+таблица Products
+----------
+Product_id
+Product_Name
+
+таблица Product_Category
+----------
+Product_id
+Category_Id
+
+таблица Category
+----------
+Category_Id
+Category_Name
+
+SELECT
+    p.Product_Name,
+    c.Category_Name
+FROM
+    Products p
+ 	LEFT JOIN Product_Category pc
+ 	ON pc.Product_id = p.Product_id
+ 	LEFT JOIN Category c
+ 	ON c.Category_Id = pc.Category_Id
+	ORDER BY
+    p.Product_Name

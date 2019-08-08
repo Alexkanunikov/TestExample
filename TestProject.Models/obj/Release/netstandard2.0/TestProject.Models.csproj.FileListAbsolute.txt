@@ -1,0 +1,9 @@
+J:\projects\TestProject\TestProject.Models\bin\Release\netstandard2.0\TestProject.Models.deps.json
+J:\projects\TestProject\TestProject.Models\bin\Release\netstandard2.0\TestProject.Models.dll
+J:\projects\TestProject\TestProject.Models\bin\Release\netstandard2.0\TestProject.Models.pdb
+J:\projects\TestProject\TestProject.Models\obj\Release\netstandard2.0\TestProject.Models.csprojAssemblyReference.cache
+J:\projects\TestProject\TestProject.Models\obj\Release\netstandard2.0\TestProject.Models.csproj.CoreCompileInputs.cache
+J:\projects\TestProject\TestProject.Models\obj\Release\netstandard2.0\TestProject.Models.AssemblyInfoInputs.cache
+J:\projects\TestProject\TestProject.Models\obj\Release\netstandard2.0\TestProject.Models.AssemblyInfo.cs
+J:\projects\TestProject\TestProject.Models\obj\Release\netstandard2.0\TestProject.Models.dll
+J:\projects\TestProject\TestProject.Models\obj\Release\netstandard2.0\TestProject.Models.pdb

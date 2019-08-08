@@ -1,0 +1,116 @@
+{
+  "format": 1,
+  "restore": {
+    "J:\\projects\\TestProject\\TestProject.Services\\TestProject.Services.csproj": {}
+  },
+  "projects": {
+    "J:\\projects\\TestProject\\TestProject.Models\\TestProject.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "J:\\projects\\TestProject\\TestProject.Models\\TestProject.Models.csproj",
+        "projectName": "TestProject.Models",
+        "projectPath": "J:\\projects\\TestProject\\TestProject.Models\\TestProject.Models.csproj",
+        "packagesPath": "C:\\Users\\alexe\\.nuget\\packages\\",
+        "outputPath": "J:\\projects\\TestProject\\TestProject.Models\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\alexe\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "J:\\projects\\TestProject\\TestProject.Services\\TestProject.Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "J:\\projects\\TestProject\\TestProject.Services\\TestProject.Services.csproj",
+        "projectName": "TestProject.Services",
+        "projectPath": "J:\\projects\\TestProject\\TestProject.Services\\TestProject.Services.csproj",
+        "packagesPath": "C:\\Users\\alexe\\.nuget\\packages\\",
+        "outputPath": "J:\\projects\\TestProject\\TestProject.Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\alexe\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "J:\\projects\\TestProject\\TestProject.Models\\TestProject.Models.csproj": {
+                "projectPath": "J:\\projects\\TestProject\\TestProject.Models\\TestProject.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
