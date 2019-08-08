@@ -10,3 +10,15 @@ J:\projects\TestProject\TestProject.Services\obj\Release\netstandard2.0\TestProj
 J:\projects\TestProject\TestProject.Services\obj\Release\netstandard2.0\TestProject.Services.csproj.CopyComplete
 J:\projects\TestProject\TestProject.Services\obj\Release\netstandard2.0\TestProject.Services.dll
 J:\projects\TestProject\TestProject.Services\obj\Release\netstandard2.0\TestProject.Services.pdb
+J:\temp\TestExample\TestProject.Services\bin\Release\netstandard2.0\TestProject.Services.deps.json
+J:\temp\TestExample\TestProject.Services\bin\Release\netstandard2.0\TestProject.Services.dll
+J:\temp\TestExample\TestProject.Services\bin\Release\netstandard2.0\TestProject.Services.pdb
+J:\temp\TestExample\TestProject.Services\bin\Release\netstandard2.0\TestProject.Models.dll
+J:\temp\TestExample\TestProject.Services\bin\Release\netstandard2.0\TestProject.Models.pdb
+J:\temp\TestExample\TestProject.Services\obj\Release\netstandard2.0\TestProject.Services.csprojAssemblyReference.cache
+J:\temp\TestExample\TestProject.Services\obj\Release\netstandard2.0\TestProject.Services.csproj.CoreCompileInputs.cache
+J:\temp\TestExample\TestProject.Services\obj\Release\netstandard2.0\TestProject.Services.AssemblyInfoInputs.cache
+J:\temp\TestExample\TestProject.Services\obj\Release\netstandard2.0\TestProject.Services.AssemblyInfo.cs
+J:\temp\TestExample\TestProject.Services\obj\Release\netstandard2.0\TestProject.Services.csproj.CopyComplete
+J:\temp\TestExample\TestProject.Services\obj\Release\netstandard2.0\TestProject.Services.dll
+J:\temp\TestExample\TestProject.Services\obj\Release\netstandard2.0\TestProject.Services.pdb
